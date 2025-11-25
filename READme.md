@@ -8,9 +8,7 @@ If you're curious about how RTL becomes silicon, or if you're starting your own 
 
 Let’s begin.
 
-# Day0
-
-# /mnt/data/silicon_repo/silicon-diary-main/Day0/README.md
+#  [Day0](https://github.com/Jaynandan-Kushwaha/silicon-diary/tree/main/Day0)
 
 # 🚀 Day 0 – VSD Program Kickoff & Toolchain Setup  
 
