@@ -6631,3 +6631,15 @@ Graph showing TNS differences across all corners.
 Due to exam pepration i created file late i completd all labs on time i am just creating github juat one day late i am sorry for creating late github repo
 
 ---
+
+## 🙏 Acknowledgements  
+
+💡 This journey wouldn’t be possible without the guidance, support, and inspiration from:  
+
+- **Kunal Ghosh** – for creating the VSD program and guiding thousands of learners.  
+- **Mentors** – for their valuable feedback and encouragement.  
+- **Peers & the Open-Source EDA Community** – for sharing knowledge and building tools like Sky130, Yosys, OpenLane.  
+
+A heartfelt **thank you** to all who make open-source chip design accessible 🌍💙.  
+
+---
