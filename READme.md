@@ -6,6 +6,8 @@ This journey documents everything from **Week 0 to Week 9**, starting with basic
 This repository is not just a log of commands — it reflects what I learned, built, broke, fixed, and finally achieved.  
 If you're curious about how RTL becomes silicon, or if you're starting your own ASIC design journey, this diary is for you.
 
+Here i attached whole week works in single file as a assignent of last week 
+if you want go in my specific week repo just click in that week you will be in my main repo where i maintain all things and all files
 Let’s begin.
 
 #  [Day0](https://github.com/Jaynandan-Kushwaha/silicon-diary/tree/main/Day0)
@@ -207,133 +209,10 @@ The primary purpose of the Magic VLSI tool is to design and edit integrated circ
 - **🔗 References:**  
   - [ Magic] [http://opencircuitdesign.com/magic/](#)
 
----
-
-# 🚀 Environment Ready for VLSI Design Journey!
----
-## 🚀 **VLSI Design Journey – Ready to Begin!**
-
-<div align="center">
-  
-  ![Repository Badge](https://img.shields.io/badge/Repository-silicon-diary-FF6F61)
-  [📂 **Repository:** silicon-diary](https://github.com/Jaynandan-Kushwaha/silicon-diary)
-
-  ![Author Badge](https://img.shields.io/badge/Author-Jaynandan_Kushwaha-42A5F5)
-  [👨‍💻 **Author:** Jaynandan Kushwaha](https://github.com/Jaynandan-Kushwaha)
-
-  ![Program Badge](https://img.shields.io/badge/Program-VLSI_System_Design-66BB6A)
-  [📚 **Program:** VLSI System Design (VSD)](https://www.vlsi.org/)
-</div>
-
-
-
----
-
-# /mnt/data/silicon_repo/silicon-diary-main/Day0/Images/README.md
-
-THis Folder will contain all Day 0 work Images of every task 
-
-
-# Week1
-
-# /mnt/data/silicon_repo/silicon-diary-main/Week1/Readme.md
-
-
-# 🚀 RTL Design & Synthesis Workshop — *Sky130 Edition*  
-
-> Dive into the fascinating world of **digital logic design** where every line of Verilog can shape the blueprint of silicon.  
-This workshop is not just about coding flip-flops and gates — it’s about **thinking like a chip designer**, simulating your ideas, optimizing them, and finally synthesizing them into something closer to real hardware.  
-If you’ve ever wondered how RTL transforms into circuits, or how synthesis tools squeeze out efficiency, you’re in the right place! 🌟  
-
-![GitHub Repo Size](https://img.shields.io/github/repo-size/Jaynandan-Kushwaha/silicon-diary?color=blue&style=flat-square)  
-![GitHub Stars](https://img.shields.io/github/stars/Jaynandan-Kushwaha/silicon-diary?style=social)  
-![Author: jaynandan-kushwaha](https://img.shields.io/badge/Author-jaynandan--kushwaha-blue)  
-
----
-
-## 📑 Contents  
-
-- [📘 About the Workshop](#-about-the-workshop)  
-- [🛠️ Prerequisites](#️-prerequisites)  
-- [📂 Workshop Roadmap](#-workshop-roadmap)  
-- [🙏 Acknowledgements](#-acknowledgements)  
-
----
-
-## 📘 About the Workshop  
-
-This workshop is crafted for **students, hobbyists, and engineers** who want to strengthen their understanding of digital design and RTL flow. You’ll learn to:  
-
-- 🖊️ Write **clean Verilog RTL code**  
-- 🧪 Run simulations with **Icarus Verilog + GTKWave**  
-- ⚙️ Perform **logic synthesis** with **Yosys + Sky130 PDK**  
-- 🧩 Master essential design concepts:  
-  - Testbenches  
-  - Timing libraries  
-  - Flip-flop coding styles  
-  - Combinational vs sequential optimization  
-
-By the end, you won’t just know RTL — you’ll know how to make it **efficient, optimized, and hardware-ready**.  
-
----
-
-## 🛠️ Prerequisites  
-
-Before you begin, make sure you have:  
-
-- Basic knowledge of **digital circuits** (gates, mux, flip-flops)  
-- Comfort with **Linux shell commands**  
-- Installed tools:  
-  - `git`  
-  - `iverilog`  
-  - `gtkwave`  
-  - `yosys`  
-  - A text editor (VSCode, Vim, Nano, etc.)  
-
-💡 *Tip: On Windows/macOS, you can use WSL for a Linux environment.*  
-
----
-
-## 📂 Workshop Roadmap  
-
-This repo is organized into **5 days of learning and labs**:  
-
-| 📅 Day | 📝 Focus Area | 🔗 Link |
-|-------|---------------|---------|
-| 1️⃣ | Verilog RTL Basics & Synthesis | [Day1](Day1/Read.md) |
-| 2️⃣ | Timing Libraries & DFF Coding Styles | [Day2](Day2/Readme.md) |
-| 3️⃣ | Combinational + Sequential Optimization | [Day3](Day3/Read.md) |
-| 4️⃣ | Gate-Level Simulation & Verilog Nuances | [Day4](Day4/Readme.md) |
-| 5️⃣ | Advanced Synthesis Optimization | [Day5](Day5/Readme.md) |  
-
-🔎 Each day includes:  
-✔️ Explanations with visuals  
-✔️ Hands-on Verilog examples  
-✔️ Simulation outputs & screenshots  
-✔️ Best practices to avoid common pitfalls  
-
----
-
-## 🙏 Acknowledgements  
-
-Huge thanks to everyone making open-source VLSI learning possible:  
-- 👨‍💻 [Kunal Ghosh](https://www.linkedin.com/in/kunal-ghosh-vlsisystemdesign-com-28084836/)  
-- 🛠️ Open-source tool developers: **Yosys**, **Icarus Verilog**, **Sky130 PDK**  
-
----
-
-✨ *Happy Coding & Chip Designing!* ✨  
-
-
----
-
-# /mnt/data/silicon_repo/silicon-diary-main/Week1/Day1/Readme.md
+# [Week1](https://github.com/Jaynandan-Kushwaha/silicon-diary/tree/main/Week1)
 
 # Day 1 – Introduction to Verilog RTL Design and Synthesis  
 
-Author: **Jaynandan Kushwaha**  
-
----
 
 ## 📌 Introduction  
 
@@ -649,34 +528,6 @@ Let’s synthesize the `good_mux` design using Yosys!
 - We got introduced to **Yosys**, learning how it performs synthesis and how different **gate library flavors** help balance speed, power, and area.
 ---
 
-#### Thats all what we learned in day 1 
-
-I attended every lecture in time but due to health issues i wasnt able to write github notes on that day itself but i was consistent everyday and did my all task everyday 
-
----
-
-## A Note of Gratitude 🙏
-
-This journey has been more than just learning Verilog or tools—it’s been about clarity, confidence, and inspiration.  
-I’m not worried about rankings like top 50 or top 20, because the knowledge we are receiving here is already a **golden reward** for students like us.  
-
-To our teacher: thank you for simplifying what once felt impossible, and for sharing wisdom with such patience.  
-You are truly a **gem for learners**, and words will never be enough to capture our gratitude.  
-Once again, thank you, sir! 🌟
-
-
-
----
-
-# /mnt/data/silicon_repo/silicon-diary-main/Week1/Day1/Images/Read.md
-
-
-This read me will contain whole lecture and lab picture for Day1 
-
-
----
-
-# /mnt/data/silicon_repo/silicon-diary-main/Week1/Day2/Readme.md
 
 # Day 2 – Timing Libraries, Hierarchical vs Flat Synthesis, and Efficient Flop Coding Styles
 Author: Jaynandan Kushwaha  
@@ -1060,32 +911,8 @@ Mul8
 </div> 
 ---
 
-## Summary
-
-This guide has covered key aspects of **RTL design and synthesis**, offering practical insights into **timing libraries, synthesis methodologies, and flip-flop coding styles**.  
-
-- **Timing Libraries:** Understanding different process corners, voltage, and temperature variations helps ensure that your design meets performance and reliability requirements.  
-- **Synthesis Strategies:** Hierarchical and flattened synthesis approaches provide flexibility in optimizing design speed, area, and debugability. Choosing the right approach depends on the size and complexity of your design.  
-- **Flip-Flop Coding Practices:** Proper coding of asynchronous and synchronous flip-flops ensures predictable behavior, avoids glitches, and supports robust sequential circuit design.
-
-By exploring and experimenting with these concepts, you can **improve your RTL design skills**, write cleaner code, and make your designs more efficient, modular, and easier to debug. This foundation will help you confidently tackle **complex digital systems** and optimize them for real-world applications.
-
-
-
----
-
-# /mnt/data/silicon_repo/silicon-diary-main/Week1/Day2/Images/Read.md
-
- this folder for storing images
-
-
----
-
-# /mnt/data/silicon_repo/silicon-diary-main/Week1/Day3/Read.md
-
 
 # Day 3 – Combinational and Sequential Optimizations
-**Author:** Jaynandan Kushwaha
 
 ## 📌 **Introduction**  
 
@@ -1470,33 +1297,8 @@ endmodule
   <img src="Images/synth-counter.png" width="70%">
 </div>
 
-## Summary 
-
-In this chapter, we explored the powerful techniques of **combinational and sequential optimizations** that help refine RTL designs into more efficient hardware.  
-
-- On the **combinational side**, we looked at methods like **constant propagation** and **Boolean simplification**, which streamline logic expressions, remove redundant gates, and shorten critical paths. These optimizations directly improve circuit speed, reduce area, and lower power usage.  
-
-- On the **sequential side**, we examined techniques such as **state optimization**, **cloning**, and **retiming**. These methods focus on storage elements and timing paths, aiming to reduce unnecessary registers, balance logic delays, and handle high-fanout issues effectively. Sequential optimizations are especially important for large-scale digital systems where timing closure and area efficiency are critical.  
-
-Together, these optimization techniques demonstrate how synthesis tools not only translate RTL into gates but also **reshape and refine the design** to achieve better performance, smaller area, and improved power efficiency.  
-
-This chapter builds the foundation for writing RTL that is not only functionally correct but also **optimized for real-world hardware implementation**.
-
-
-
-
-
 
 ---
-
-# /mnt/data/silicon_repo/silicon-diary-main/Week1/Day3/Images/Read.md
-
-
-
-
----
-
-# /mnt/data/silicon_repo/silicon-diary-main/Week1/Day4/Readme.md
 
 # Day 4 – Gate-Level Simulation (GLS), Blocking vs Non-Blocking, and Synthesis-Simulation Mismatch  
 Author: Jaynandan Kushwaha  
@@ -1768,29 +1570,6 @@ Expect simulation mismatches or warnings due to above issues.
 ---
 
 ## ✨ Summary  
-
-Day 4 was all about understanding how designs behave after synthesis and ensuring that what you simulate in RTL is the same as what ends up in hardware.  
-
-- We began with **Gate-Level Simulation (GLS)**, a critical step that validates the gate-level netlist produced by synthesis. GLS not only checks functional correctness but also verifies timing (with real delays) and test structures like scan chains, ensuring the design is production-ready.  
-
-- Next, we explored **synthesis-simulation mismatches**, which often arise from non-synthesizable constructs, ambiguous coding styles, or tool interpretation differences. The lesson here was clear: always use clean, synthesizable RTL and follow coding best practices to avoid surprises later in the flow.  
-
-- Finally, we studied **blocking vs non-blocking assignments in Verilog**, two fundamental concepts that directly affect whether hardware is inferred as combinational or sequential. Correct usage of these assignments ensures predictable behavior, especially in clocked designs.  
-
-**Overall takeaway:** Day 4 emphasized the importance of writing RTL that not only functions in simulation but also translates accurately into real hardware. By mastering GLS, avoiding mismatches, and using assignments correctly, you strengthen your ability to design circuits that are both reliable and synthesis-friendly.  
-
-
----
-
-# /mnt/data/silicon_repo/silicon-diary-main/Week1/Day4/Images/Readme.md
-
-contain only images
-
-
----
-
-# /mnt/data/silicon_repo/silicon-diary-main/Week1/Day5/read.md
-
 
 # Day 5 – Optimization in Synthesis
 
@@ -2168,40 +1947,11 @@ when we synthesise before show in yosys we will use command this to generate net
 write_verilog  bad_mux_net.v
 
 ```
-and it will write netlist and use this netlist file in iverilog for generating gls 
-
+and it will write netlist and use this netlist file in iverilog for generating gls
 
 ---
-
-# /mnt/data/silicon_repo/silicon-diary-main/Week1/Day5/Images/read.md
-
-this is for images
-
-
 
 # Week 2
-
-# /mnt/data/silicon_repo/silicon-diary-main/Week 2/Readme.md
-
-
-# 🚀 Week 2 — BabySoC Fundamentals & Functional Modelling  
-
-Welcome to **Week 2 Research**!  
-This week, we zoom into the **fundamentals of BabySoC design** and explore how **functional modelling** helps us translate theory into working prototypes.  
-
-Think of BabySoC as the “miniature DNA of a chip” — small, simple, yet powerful enough to demonstrate how **processors, memory, and interconnects** interact.  
-Here, we’re not just studying block diagrams — we’re building intuition on **how ideas turn into models** and eventually real hardware. 🌟  
-
----
-
-## 📑 Contents  
-📘 About Week 2  
-🛠️ Prerequisites  
-📂 Research & Lab Roadmap  
-🎯 Learning Outcomes  
-🙏 Acknowledgements  
-
----
 
 ## 📘 About Week 2  
 
@@ -2244,35 +1994,6 @@ This week is structured in two major parts:
 ✔️ Reflections connecting **Week 1 RTL basics → Week 2 system-level thinking**  
 
 ---
-
-## 🎯 Learning Outcomes  
-
-By the end of Week 2, you will:  
-- 🧠 Understand **BabySoC architecture** and its functional layers  
-- 🛠️ Model the **behavior of a simplified SoC**  
-- 🔄 Bridge the gap between **conceptual theory & implementation**  
-- 🚀 Prepare for Week 3, where we move into **deeper RTL integration**  
-
----
-
-## 🙏 Acknowledgements  
-
-This research builds on the efforts of the **open-source VLSI community**:  
-
-👨‍💻 Kunal Ghosh (VSDI)  
-🛠️ Open-source ecosystem: Sky130 PDK, Icarus Verilog, Verilator  
-📘 Collaborative learners & contributors shaping BabySoC insights  
-
-✨ *“Every SoC starts as a simple model — mastering functional modelling is your first step to becoming a chip architect.”* ✨  
-
----
-
-**Author:** *jaynandan-kushwaha*  
-
-
----
-
-# /mnt/data/silicon_repo/silicon-diary-main/Week 2/Practical/Readme.md
 
 # 🧪 VSDBabySoC – Lab Process Documentation  
 
@@ -2806,50 +2527,6 @@ for simulation logs
 
 ---
 
-## 🙏 Acknowledgment
-
-I would like to express my sincere gratitude to the **VLSI System Design (VSD) community** and **Kunal Ghosh** for providing such an insightful and hands-on learning platform.  
-The BabySoC project offered me a deep understanding of how a real **System-on-Chip (SoC)** integrates multiple components like **PLL**, **DAC**, and a **RISC-V processor core** into a cohesive hardware system.  
-
-Special thanks to the mentors and open-source contributors whose continuous efforts make advanced semiconductor design accessible to learners worldwide.  
-Their guidance and open resources have not only enhanced my technical skills but also strengthened my passion for **VLSI design and research**.
-
----
-
-## ✍️ Author
-
-**Name:** Jaynandan Kushwaha  
-**Domain:** VLSI and Semiconductor Design Enthusiast  
-**Focus Areas:** RISC-V, SoC Design, RTL Synthesis, and Digital Circuit Optimization  
-**GitHub:** [jaynandan-kushwaha](https://github.com/jaynandan-kushwaha)  
-
----
-
-## 🌟 Conclusion — End of Week 2
-
-Week 2 marked a significant step forward in understanding the **synthesis and simulation flow** of a real SoC design.  
-Through the BabySoC experiment, I explored how RTL design translates into a gate-level representation while maintaining identical functionality between **pre-synthesis** and **post-synthesis** simulations.  
-
-Observing clean and stable waveforms reaffirmed that the design was logically and structurally sound — a crucial validation before moving toward **physical design** and **timing analysis**.  
-
-With this milestone, Week 2 concludes with a sense of accomplishment and curiosity — a reminder that every synthesized signal and simulated waveform brings us one step closer to bridging **digital logic** with **real silicon**.
-
----
-
-> “Every great chip starts as a few lines of Verilog — and every simulation waveform tells a story of logic coming to life.” 🧠⚙️
-
-
-
----
-
-# /mnt/data/silicon_repo/silicon-diary-main/Week 2/Practical/Images/readme.md
-
-for images
-
-
----
-
-# /mnt/data/silicon_repo/silicon-diary-main/Week 2/Theory/Readme.md
 
 # 🚀 BabySoC – Learning SoC Design with RVMYTH, PLL, and DAC
 
@@ -3055,68 +2732,15 @@ A **DAC** converts binary values (0s and 1s) into real-world analog signals.
 📌 **BabySoC Top-Level Block Diagram**  
 ![BabySoC Block Diagram](Images/topblock.png)  
 
-👉 The end result: **Binary → Instructions → Registers → DAC → Analog Signals** 🎵📺  
-
----
-
-💡 **BabySoC fits in the Educational/Embedded SoC category** — focused on teaching SoC design fundamentals and experimenting with digital–analog integration.  
+👉 The end result: **Binary → Instructions → Registers → DAC → Analog Signals** 🎵📺 
 
 ---
 
 
-## 🎯 In Summary  
-
-- **VSDBabySoC** integrates:  
-  - 🖥️ **RVMYTH CPU** (logic and control)  
-  - ⏱️ **PLL** (stable timing)  
-  - 🎚️ **DAC** (analog bridge)  
-
-- It provides a hands-on platform to:  
-  - Learn **SoC fundamentals**.  
-  - Explore how **digital and analog worlds interact**.  
-  - Experiment with **real, open-source IP cores**.  
-
-✨ BabySoC isn’t just a circuit — it’s your **first step into the world of chip design**.  
-
----
-
-👨‍💻 **Author:** Jaynandan Kushwaha
-
-🔗 **Tech Stack:** RISC-V | Sky130 | PLL | DAC | Open-Source SoC  
-📂 **Category:** Educational / Embedded SoC  
-
-
----
-
-# /mnt/data/silicon_repo/silicon-diary-main/Week 2/Theory/Images/readme.md
-
-
-
-
-# Week3 
-
-# /mnt/data/silicon_repo/silicon-diary-main/Week3 /Readme.md
-
+# [Week3](https://github.com/Jaynandan-Kushwaha/silicon-diary/tree/main/Week3%20) 
 
 # 🚀 Week 3 — Post Synthesis GLS & STA Fundamentals
 
-Welcome to **Week 3 Research!**  
-This week, we dive into one of the most crucial phases of the VLSI design flow — **Post Synthesis Verification** and **Static Timing Analysis (STA)**.  
-
-If Week 2 was about building functional models and system intuition, Week 3 is where we **validate and time the design** — ensuring that what we built behaves **logically and temporally correct** before tapeout. ⚙️  
-
-We’ll explore how the synthesized netlist behaves through **Gate-Level Simulation (GLS)** and how timing constraints are analyzed and verified using **OpenSTA**.
-
----
-
-## 📑 Contents
-📘 About Week 3  
-🛠️ Prerequisites  
-📂 Research & Lab Roadmap  
-🎯 Learning Outcomes  
-🙏 Acknowledgements  
-
----
 
 ## 📘 About Week 3
 
@@ -3135,77 +2759,6 @@ You’ll explore:
 💡 *If Week 2 was about thinking in systems, Week 3 is about validating those systems under real hardware constraints.*
 
 ---
-
-## 🛠️ Prerequisites
-
-Before diving in, ensure you’re comfortable with:
-
-✅ **Verilog RTL Design & Simulation** (Week 1 & 2 concepts)  
-✅ **Synthesis tools** (Yosys or equivalent)  
-✅ **Waveform Analysis using GTKWave**  
-✅ Installed tools (recommended):
-- Icarus Verilog / Verilator  
-- Yosys (for synthesis)  
-- OpenSTA (for timing analysis)  
-- GTKWave (for post-synthesis waveform visualization)
-
-💡 *Tip:* Keep your Week 2 BabySoC models ready — they form the perfect base to analyze post-synthesis behavior this week!
-
----
-
-## 📂 Research & Lab Roadmap
-
-This week is structured into **three major parts**, combining theory and hands-on exploration:
-
-| 📅 Part | 📝 Focus Area | 🔗 Link |
-|:--:|:--|:--|
-| 1️⃣ | **Post Synthesis GLS** → Explore gate-level netlist simulation, understand how timing delays impact behavior | Part1-PostSynthesisGLS |
-| 2️⃣ | **Fundamentals of STA (Static Timing Analysis)** → Learn how STA checks setup, hold, and path delays to ensure design reliability | Part2-FundamentalsOfSTA |
-| 3️⃣ | **Generate Timing Graphs with OpenSTA** → Use OpenSTA to visualize and verify design timing through reports and timing graphs | Part3-TimingGraphsOpenSTA |
-
-Each part includes:  
-✔️ Concept walkthroughs  
-✔️ Lab exercises with command flow  
-✔️ Timing and waveform observations  
-✔️ Practical STA checks for design signoff confidence  
-
----
-
-## 🎯 Learning Outcomes
-
-By the end of Week 3, you will:
-
-🧠 Understand **Post Synthesis GLS flow** and its importance  
-📈 Perform **Static Timing Analysis** to verify design timing integrity  
-⚙️ Generate and interpret **timing reports** and **graphs** using OpenSTA  
-💡 Correlate **synthesis results**, **functional correctness**, and **timing closure**  
-🚀 Be ready for **Week 4**, where timing optimization and advanced synthesis techniques come into play  
-
----
-
-## 🙏 Acknowledgements
-
-This research module builds on the continued efforts of the **Open-Source VLSI Design Community** and contributors to open hardware education.
-
-👨‍💻 **Kunal Ghosh (VSDI)**  
-🛠️ Open-source tools: **Yosys**, **OpenSTA**, **GTKWave**, **Icarus Verilog**  
-📘 Learners and developers contributing to open silicon design ecosystems  
-
-✨ *“Synthesis gives structure, STA gives confidence — together, they define the readiness of silicon.”* ✨  
-
-**Author:** *jaynandan-kushwah*
-
-
----
-
-# /mnt/data/silicon_repo/silicon-diary-main/Week3 /Images/Readme.md
-
-this folder for part 1 post synthesis gls content by mistekn its creared outside of part 1 folder
-
-
----
-
-# /mnt/data/silicon_repo/silicon-diary-main/Week3 /Part 1 Post Synthesis GLS /Readme.md
 
 # ⚙️ Part 1 — Post Synthesis GLS: “Bringing BabySoC to Life”
 
@@ -3398,14 +2951,9 @@ gtkwave post_synth_sim.vcd
 
 ![WhatsApp Image ](https://github.com/Jaynandan-Kushwaha/silicon-diary/blob/main/Week3%20/Images/Screenshot%20from%202025-10-11%2011-37-15.png)
 
-
-
-
 ---
 
-# /mnt/data/silicon_repo/silicon-diary-main/Week3 /Part 2 Fundamental of STA /Readme.md
-
-# 🧩 Week 3 Task – Post-Synthesis GLS & STA Fundamentals  
+# 🧩 Week 3 Task – Post-Synthesis GLS & STA Fundamentals   
 ### **Part 2 – Fundamentals of Static Timing Analysis (STA)**  
 
 ---
@@ -3507,19 +3055,8 @@ This model allows STA to analyze all timing paths quickly and identify critical 
 
 ---
 
-### all important concept images are in image folderso you can refre them for better understanding 
+### all important concept images are in image folderso you can refre them for better understanding refer my week3 main repo 
 
-
----
-
-# /mnt/data/silicon_repo/silicon-diary-main/Week3 /Part 2 Fundamental of STA /Images/Readme.md
-
-
-
-
----
-
-# /mnt/data/silicon_repo/silicon-diary-main/Week3 /Part 3 Generate timing Graph with opensta/Readme.md
 
 # ⚙️ Installation of OpenSTA — “Building Your Timing Analyzer”
 
@@ -3820,113 +3357,9 @@ output of this tcl file
 
 ---
 
-# /mnt/data/silicon_repo/silicon-diary-main/Week3 /Part 3 Generate timing Graph with opensta/Images/Readme.md
-
-
-
-
-# Week4
-
-# /mnt/data/silicon_repo/silicon-diary-main/Week4/Readme.md
+# [Week4](https://github.com/Jaynandan-Kushwaha/silicon-diary/tree/main/Week4)
 
 # 🚀 Week 4 — NgspiceSky130 CMOS Simulation & Robustness Evaluation  
-
-Welcome to **Week 4 Research!**  
-This week, we dive deeper into the world of **transistor-level simulations** using the **Sky130 PDK** and **Ngspice** — the open-source circuit simulator that forms the foundation of analog and mixed-signal VLSI design.  
-
-If Week 3 was about validating timing at the digital level, Week 4 brings us closer to the **device physics** — understanding how NMOS and PMOS transistors actually behave and how their characteristics impact the overall CMOS performance. ⚙️  
-
----
-
-## 📘 About Week 4  
-
-This module focuses on building a strong understanding of **MOSFET behavior**, **CMOS inverter design**, and **robustness evaluation** under varying process and environmental conditions.  
-
-Through hands-on Ngspice simulations, we will visualize how transistor parameters affect circuit speed, switching points, and noise margins — critical for ensuring reliable operation before tapeout.  
-
-In this week’s journey, you’ll explore:  
-- 📉 **Id–Vds characteristics** of NMOS transistors and how different voltages affect current flow  
-- ⚡ **Velocity saturation** and its role in determining switching performance  
-- 🔄 **Dynamic simulations** to observe real-time signal transitions  
-- 🧩 **Noise margin and robustness** evaluation of CMOS inverters  
-- 🔋 **Power supply and variation analysis** for device-level stability  
-
-💡 *If Week 3 gave you timing confidence, Week 4 gives you device-level understanding — the physics behind those transitions.*
-
----
-
-## 🛠️ Prerequisites  
-
-Before getting started, make sure you’re familiar with the following:  
-✅ Basic MOSFET theory (linear and saturation regions)  
-✅ CMOS inverter design and operation  
-✅ Installed **Ngspice** and **Sky130 PDK**  
-✅ Basic command-line usage for simulation runs  
-
-**Recommended Tools**  
-- 🧮 Ngspice (for circuit simulations)  
-- 🧰 SkyWater 130nm PDK  
-- 📊 Python (for plotting and data analysis)  
-- 🌊 GTKWave (for transient waveform visualization)
-
-💡 *Tip: Keep your earlier BabySoC and post-synthesis simulation setups handy — they’ll help you relate transistor-level effects to digital timing.*
-
----
-
-## 📂 Research & Lab Roadmap  
-
-This week’s labs are structured to gradually build your understanding — from transistor fundamentals to full CMOS inverter robustness analysis.  
-
-| 🗓️ Day | 🧠 Focus Area | 🔍 Description |
-|:--:|:--|:--|
-| **Day 1** | **Basics of NMOS Drain current (Id) vs Drain-to-Source Voltage (Vds)** | Plot Id–Vds curves, understand linear and saturation regions, and study the impact of gate voltage (Vgs). |
-| **Day 2** | **Velocity Saturation and Basics of CMOS Inverter VTC** | Learn how velocity saturation affects transistor current and generate the CMOS inverter VTC (Voltage Transfer Characteristic). |
-| **Day 3** | **CMOS Switching Threshold and Dynamic Simulations** | Perform transient simulations to observe switching speed, threshold voltage, and propagation delay. |
-| **Day 4** | **CMOS Noise Margin Robustness Evaluation** | Analyze noise margins (NMH & NML) and evaluate robustness against variations in process and temperature. |
-| **Day 5** | **CMOS Power Supply and Device Variation Robustness Evaluation** | Study how supply voltage and device parameter changes affect inverter performance, delay, and power. |
-
-Each day’s experiment includes:  
-✔️ Circuit schematic and SPICE netlist setup  
-✔️ DC and transient analysis  
-✔️ Waveform and plot observations  
-✔️ Key performance and robustness measurements  
-
----
-
-## 🎯 Learning Outcomes  
-
-By the end of Week 4, you will:  
-- 🧠 Understand transistor-level physics and CMOS inverter characteristics  
-- 🧩 Analyze Id–Vds behavior and VTC plots using Ngspice  
-- ⚙️ Simulate switching thresholds and propagation delays  
-- 🔋 Evaluate noise margins and power robustness  
-- 📈 Correlate transistor parameters with system-level performance  
-
-💡 *This week bridges the gap between device-level physics and digital logic design — a crucial step toward mastering SoC design and tapeout.*  
-
----
-
-## 🙏 Acknowledgements  
-
-This research module is part of the **RISC-V Reference SoC Tapeout Program**, developed with the support of the **Open-Source VLSI Design Community**.  
-
-We gratefully acknowledge the contributions of educators, developers, and learners who continue to push open silicon design forward.  
-
-👨‍💻 **Kunal Ghosh (VSDI)**  
-🛠️ **Tools Used:** Ngspice, Sky130 PDK, GTKWave, Python  
-📘 **Community:** VSDI Learners, Open Hardware Developers, and Contributors  
-
-✨ *“Transistor behavior defines logic precision — mastering devices builds the foundation for mastering systems.”* ✨  
-
-**Author:** *jaynandan-kushwaha*  
----
-
-
-
-
----
-
-# /mnt/data/silicon_repo/silicon-diary-main/Week4/Day1/Readme.md
 
 # ⚡ Day 1 — NMOS Drain Current (Id) vs Drain-to-Source Voltage (Vds)
 
@@ -4245,15 +3678,6 @@ This forms the **foundation of all transistor-based design work** — the steppi
 
 
 ---
-
-# /mnt/data/silicon_repo/silicon-diary-main/Week4/Day1/Images/Readme.md
-
-for images
-
-
----
-
-# /mnt/data/silicon_repo/silicon-diary-main/Week4/Day2/Readme.md
 
 # ⚡ **. SPICE Simulation for Lower Nodes and Velocity Saturation Effect**
 
@@ -4589,17 +4013,6 @@ Understanding this trade-off is key to mastering **modern CMOS circuit design** 
 ---
 
 
----
-
-# /mnt/data/silicon_repo/silicon-diary-main/Week4/Day2/Images/Readme.md
-
-for images only
-
-
----
-
-# /mnt/data/silicon_repo/silicon-diary-main/Week4/Day3/Readme.md
-
 # Voltage Transfer Characteristics: SPICE Simulations
 
 ### 🔧 **Setting Up the CMOS Inverter in SPICE**
@@ -4810,18 +4223,6 @@ The SPICE simulations and analysis demonstrate:
 
 ---
 
-
----
-
-# /mnt/data/silicon_repo/silicon-diary-main/Week4/Day3/Images/Readme.md
-
-only imAGED
-
-
----
-
-# /mnt/data/silicon_repo/silicon-diary-main/Week4/Day4/Readme.md
-
 # ⚡ **Static Behavior Evaluation: CMOS Inverter Robustness and Noise Margin**
 
 ### 🔹 Understanding Noise Margin
@@ -4972,19 +4373,7 @@ display
  ![ Image ](https://github.com/Jaynandan-Kushwaha/silicon-diary/blob/main/Week4/Day4/Images/Screenshot%20from%202025-10-18%2021-25-36.png)
  ![ Image ](https://github.com/Jaynandan-Kushwaha/silicon-diary/blob/main/Week4/Day4/Images/Screenshot%20from%202025-10-18%2021-26-24.png)
 
-
-
-
 ---
-
-# /mnt/data/silicon_repo/silicon-diary-main/Week4/Day4/Images/Readme.md
-
-
-
-
----
-
-# /mnt/data/silicon_repo/silicon-diary-main/Week4/Day5/Readme.md
 
 # 🧩 **1. Static Behavior Evaluation: CMOS Inverter Robustness – Power Supply Variation**
 
@@ -5180,16 +4569,7 @@ display
 
 
 ---
-
-# /mnt/data/silicon_repo/silicon-diary-main/Week4/Day5/Image/Readme.md
-
-
-
-
-# Week5
-
-# /mnt/data/silicon_repo/silicon-diary-main/Week5/Readme.md
-
+# [Week5](https://github.com/Jaynandan-Kushwaha/silicon-diary/tree/main/Week5)
 
 # 🚀 OpenROAD Installation Guide
 
@@ -5426,15 +4806,7 @@ Logs can be checked under flow/reports/ or flow/logs/.
 
 ---
 
-# /mnt/data/silicon_repo/silicon-diary-main/Week5/Images/Readme.md
-
-
-
-
-# Week6
-
-# /mnt/data/silicon_repo/silicon-diary-main/Week6/Readme.md
-
+# [Week6](https://github.com/Jaynandan-Kushwaha/silicon-diary/tree/main/Week6)
 
 Day 1:- 
 1. Run 'picorv32a' design synthesis using OpenLANE flow and generate necessary outputs.
@@ -6261,23 +5633,9 @@ Screenshots of routing run
 ![Screenshot from 2024-03-26 15-38-39](https://github.com/Jaynandan-Kushwaha/silicon-diary/blob/main/Week6/Images/Screenshot%20from%202025-11-11%2018-55-30.png)
 ![Screenshot from 2024-03-26 15-29-38](https://github.com/Jaynandan-Kushwaha/silicon-diary/blob/main/Week6/Images/Screenshot%20from%202025-11-11%2019-16-12.png)
 
-
-* [Kunal Ghosh](https://github.com/kunalg123), Co-founder, VSD Corp. Pvt. Ltd.
-* [Nickson P Jose](https://github.com/nickson-jose), Physical Design Engineer, Intel Corporation.
-* [R. Timothy Edwards](https://github.com/RTimothyEdwards), Senior Vice President of Analog and Design, efabless Corporation.
-
-
 ---
 
-# /mnt/data/silicon_repo/silicon-diary-main/Week6/Images/Readme.md
-
-
-
-
-# Week7
-
-# /mnt/data/silicon_repo/silicon-diary-main/Week7/Readme.md
-
+# [Week7](https://github.com/Jaynandan-Kushwaha/silicon-diary/tree/main/Week7)
 
 **ORFS Directory Structure and File formats**
 ``` 
@@ -7064,735 +6422,7 @@ make DESIGN_CONFIG=./designs/sky130hd/vsdbabysoc/config.mk final
 
 
 ---
-
-# /mnt/data/silicon_repo/silicon-diary-main/Week7/Images/Readme.md
-
-**ORFS Directory Structure and File formats**
-
-![image]()
-
-
-``` 
-├── OpenROAD-flow-scripts             
-│   ├── docker           -> It has Docker based installation, run scripts and all saved here
-│   ├── docs             -> Documentation for OpenROAD or its flow scripts.  
-│   ├── flow             -> Files related to run RTL to GDS flow  
-|   ├── jenkins          -> It contains the regression test designed for each build update
-│   ├── tools            -> It contains all the required tools to run RTL to GDS flow
-│   ├── etc              -> Has the dependency installer script and other things
-│   ├── setup_env.sh     -> Its the source file to source all our OpenROAD rules to run the RTL to GDS flow
-```
-
-Now, go to flow directory
-
-![image]()
-
-``` 
-├── flow           
-│   ├── design           -> It has built-in examples from RTL to GDS flow across different technology nodes
-│   ├── makefile         -> The automated flow runs through makefile setup
-│   ├── platform         -> It has different technology note libraries, lef files, GDS etc 
-|   ├── tutorials        
-│   ├── util            
-│   ├── scripts             
-```
-
-Automated RTL2GDS Flow for VSDBabySoC:
-
-Initial Steps:
-
-- We need to create a directory `vsdbabysoc` inside `OpenROAD-flow-scripts/flow/designs/sky130hd`
-- Now create a directory `vsdbabysoc` inside `OpenROAD-flow-scripts/flow/designs/src` and include all the verilog files here.
-- Now copy the folders `gds`, `include`, `lef` and `lib` from the VSDBabySoC folder in your system into this directory.
-  - The `gds` folder would contain the files `avsddac.gds` and `avsdpll.gds`
-  - The `include` folder would contain the files `sandpiper.vh`, `sandpiper_gen.vh`, `sp_default.vh` and `sp_verilog.vh`
-  - The folder would contain the files `avsddac.lef` and `avsdpll.lef`
-  - The `lib` folder would contain the files `avsddac.lib` and `avsdpll.lib`
-- Now copy the constraints file(`vsdbabysoc_synthesis.sdc`) from the VSDBabySoC folder in your system into this directory.
-- Now copy the files(`macro.cfg` and `pin_order.cfg`) from the VSDBabySoC folder in your system into this directory.
-- Now, create a `config.mk` file whose contents are shown below:
-
-```
-export DESIGN_NICKNAME = vsdbabysoc
-export DESIGN_NAME = vsdbabysoc
-export PLATFORM    = sky130hd
-
-# export VERILOG_FILES_BLACKBOX = $(DESIGN_HOME)/src/$(DESIGN_NICKNAME)/IPs/*.v
-# export VERILOG_FILES = $(sort $(wildcard $(DESIGN_HOME)/src/$(DESIGN_NICKNAME)/*.v))
-# Explicitly list the Verilog files for synthesis
-export VERILOG_FILES = $(DESIGN_HOME)/src/$(DESIGN_NICKNAME)/vsdbabysoc.v \
-                       $(DESIGN_HOME)/src/$(DESIGN_NICKNAME)/rvmyth.v \
-                       $(DESIGN_HOME)/src/$(DESIGN_NICKNAME)/clk_gate.v
-
-export SDC_FILE      = $(DESIGN_HOME)/$(PLATFORM)/$(DESIGN_NICKNAME)/vsdbabysoc_synthesis.sdc
-
-export vsdbabysoc_DIR = $(DESIGN_HOME)/$(PLATFORM)/$(DESIGN_NICKNAME)
-
-export VERILOG_INCLUDE_DIRS = $(wildcard $(vsdbabysoc_DIR)/include/)
-# export SDC_FILE      = $(wildcard $(vsdbabysoc_DIR)/sdc/*.sdc)
-export ADDITIONAL_GDS  = $(wildcard $(vsdbabysoc_DIR)/gds/*.gds.gz)
-export ADDITIONAL_LEFS  = $(wildcard $(vsdbabysoc_DIR)/lef/*.lef)
-export ADDITIONAL_LIBS = $(wildcard $(vsdbabysoc_DIR)/lib/*.lib)
-# export PDN_TCL = $(DESIGN_HOME)/$(PLATFORM)/$(DESIGN_NICKNAME)/pdn.tcl
-
-# Clock Configuration (vsdbabysoc specific)
-# export CLOCK_PERIOD = 20.0
-export CLOCK_PORT = CLK
-export CLOCK_NET = $(CLOCK_PORT)
-
-# Floorplanning Configuration (vsdbabysoc specific)
-export FP_PIN_ORDER_CFG = $(wildcard $(DESIGN_DIR)/pin_order.cfg)
-# export FP_SIZING = absolute
-
-export DIE_AREA   = 0 0 1600 1600
-export CORE_AREA  = 20 20 1590 1590
-
-# Placement Configuration (vsdbabysoc specific)
-export MACRO_PLACEMENT_CFG = $(wildcard $(DESIGN_DIR)/macro.cfg)
-export PLACE_PINS_ARGS = -exclude left:0-600 -exclude left:1000-1600: -exclude right:* -exclude top:* -exclude bottom:*
-# export MACRO_PLACEMENT = $(DESIGN_HOME)/$(PLATFORM)/$(DESIGN_NICKNAME)/macro_placement.cfg
-
-export TNS_END_PERCENT = 100
-export REMOVE_ABC_BUFFERS = 1
-
-# Magic Tool Configuration
-export MAGIC_ZEROIZE_ORIGIN = 0
-export MAGIC_EXT_USE_GDS = 1
-
-# CTS tuning
-export CTS_BUF_DISTANCE = 600
-export SKIP_GATE_CLONING = 1
-
-# export CORE_UTILIZATION=0.1  # Reduce this value to allow more whitespace for routing.
-```
-
-Now go to terminal and run the following commands:
-
-```
-cd OpenROAD-flow-scripts
-source env.sh
-cd flow
-```
-
-Commands for **synthesis**:
-
-```
-make DESIGN_CONFIG=./designs/sky130hd/vsdbabysoc/config.mk synth
-```
-
-![image]()
-
-![image]()
-
-Synthesis netlist:
-
-![image]()
-
-Synthesis log:
-
-![image]()
-
-Synthesis Check:
-
-![image]()
-
-Synthesis Stats:
-
-![image]()
-
-![image]()
-
-![image]()
-
-![image]()
-
-Commands for **floorplan**:
-
-```
-make DESIGN_CONFIG=./designs/sky130hd/vsdbabysoc/config.mk floorplan
-```
-
-![image]()
-
-![image]()
-
-```
-make DESIGN_CONFIG=./designs/sky130hd/vsdbabysoc/config.mk gui_floorplan
-```
-![image]()
-
-![image]()
-
-```
-make DESIGN_CONFIG=./designs/sky130hd/vsdbabysoc/config.mk place
-```
-
-![image]()
-
-![image]()
-
-```
-make DESIGN_CONFIG=./designs/sky130hd/vsdbabysoc/config.mk gui_place
-```
-
-![image]()
-
-![image]()
-
-Heatmap:
-
-![image]()
-
-![image]()
-
-![image]()
-
-
-```
-make DESIGN_CONFIG=./designs/sky130hd/vsdbabysoc/config.mk cts
-```
-
-![image]()
-
-![image]()
-
-```
-make DESIGN_CONFIG=./designs/sky130hd/vsdbabysoc/config.mk gui_cts
-```
-
-![image]()
-
-![image]()
-
-![image]()
-
-CTS final report:
-
-![image]()
-
-
-```
-
-==========================================================================
-cts final report_tns
---------------------------------------------------------------------------
-tns 0.00
-
-==========================================================================
-cts final report_wns
---------------------------------------------------------------------------
-wns 0.00
-
-==========================================================================
-cts final report_worst_slack
---------------------------------------------------------------------------
-worst slack 5.55
-
-==========================================================================
-cts final report_clock_skew
---------------------------------------------------------------------------
-Clock clk
-   0.92 source latency core.CPU_result_a4[0]$_DFF_P_/CLK ^
-  -0.82 target latency core.CPU_Dmem_value_a5[0][18]$_SDFFE_PP0P_/CLK ^
-   0.55 clock uncertainty
-   0.00 CRPR
---------------
-   0.65 setup skew
-
-
-==========================================================================
-cts final report_checks -path_delay min
---------------------------------------------------------------------------
-Startpoint: core.CPU_Xreg_value_a4[25][15]$_SDFFE_PP0P_
-            (rising edge-triggered flip-flop clocked by clk)
-Endpoint: core.CPU_src2_value_a3[15]$_DFF_P_
-          (rising edge-triggered flip-flop clocked by clk)
-Path Group: clk
-Path Type: min
-
-Fanout     Cap    Slew   Delay    Time   Description
------------------------------------------------------------------------------
-                          0.00    0.00   clock clk (rise edge)
-                          0.00    0.00   clock source latency
-     1    0.10    0.00    0.00    0.00 ^ pll/CLK (avsdpll)
-                                         CLK (net)
-                  0.00    0.00    0.00 ^ clkbuf_0_CLK/A (sky130_fd_sc_hd__clkbuf_16)
-     8    0.23    0.24    0.26    0.26 ^ clkbuf_0_CLK/X (sky130_fd_sc_hd__clkbuf_16)
-                                         clknet_0_CLK (net)
-                  0.24    0.00    0.26 ^ clkbuf_3_7_0_CLK/A (sky130_fd_sc_hd__clkbuf_16)
-     2    0.04    0.06    0.20    0.47 ^ clkbuf_3_7_0_CLK/X (sky130_fd_sc_hd__clkbuf_16)
-                                         clknet_3_7_0_CLK (net)
-                  0.06    0.00    0.47 ^ clkbuf_4_14__f_CLK/A (sky130_fd_sc_hd__clkbuf_16)
-    13    0.17    0.18    0.24    0.71 ^ clkbuf_4_14__f_CLK/X (sky130_fd_sc_hd__clkbuf_16)
-                                         clknet_4_14__leaf_CLK (net)
-                  0.18    0.00    0.71 ^ clkbuf_leaf_108_CLK/A (sky130_fd_sc_hd__clkbuf_16)
-    12    0.04    0.06    0.19    0.90 ^ clkbuf_leaf_108_CLK/X (sky130_fd_sc_hd__clkbuf_16)
-                                         clknet_leaf_108_CLK (net)
-                  0.06    0.00    0.90 ^ core.CPU_Xreg_value_a4[25][15]$_SDFFE_PP0P_/CLK (sky130_fd_sc_hd__dfxtp_1)
-     2    0.01    0.06    0.32    1.22 ^ core.CPU_Xreg_value_a4[25][15]$_SDFFE_PP0P_/Q (sky130_fd_sc_hd__dfxtp_1)
-                                         core.CPU_Xreg_value_a4[25][15] (net)
-                  0.06    0.00    1.22 ^ _14708_/A1 (sky130_fd_sc_hd__a21oi_1)
-     1    0.00    0.04    0.06    1.28 v _14708_/Y (sky130_fd_sc_hd__a21oi_1)
-                                         _02012_ (net)
-                  0.04    0.00    1.28 v _14712_/A (sky130_fd_sc_hd__nand4_1)
-     1    0.01    0.13    0.12    1.40 ^ _14712_/Y (sky130_fd_sc_hd__nand4_1)
-                                         _02016_ (net)
-                  0.13    0.00    1.40 ^ _14729_/A1 (sky130_fd_sc_hd__o32ai_4)
-     1    0.04    0.12    0.18    1.58 v _14729_/Y (sky130_fd_sc_hd__o32ai_4)
-                                         _02033_ (net)
-                  0.12    0.00    1.59 v _14731_/A2 (sky130_fd_sc_hd__o21ai_0)
-     1    0.00    0.06    0.16    1.74 ^ _14731_/Y (sky130_fd_sc_hd__o21ai_0)
-                                         core.CPU_src2_value_a2[15] (net)
-                  0.06    0.00    1.74 ^ core.CPU_src2_value_a3[15]$_DFF_P_/D (sky130_fd_sc_hd__dfxtp_2)
-                                  1.74   data arrival time
-
-                          0.00    0.00   clock clk (rise edge)
-                          0.00    0.00   clock source latency
-     1    0.10    0.00    0.00    0.00 ^ pll/CLK (avsdpll)
-                                         CLK (net)
-                  0.00    0.00    0.00 ^ clkbuf_0_CLK/A (sky130_fd_sc_hd__clkbuf_16)
-     8    0.23    0.24    0.26    0.26 ^ clkbuf_0_CLK/X (sky130_fd_sc_hd__clkbuf_16)
-                                         clknet_0_CLK (net)
-                  0.24    0.00    0.26 ^ clkbuf_3_6_0_CLK/A (sky130_fd_sc_hd__clkbuf_16)
-     2    0.04    0.06    0.21    0.47 ^ clkbuf_3_6_0_CLK/X (sky130_fd_sc_hd__clkbuf_16)
-                                         clknet_3_6_0_CLK (net)
-                  0.06    0.00    0.47 ^ clkbuf_4_13__f_CLK/A (sky130_fd_sc_hd__clkbuf_16)
-    12    0.16    0.18    0.24    0.71 ^ clkbuf_4_13__f_CLK/X (sky130_fd_sc_hd__clkbuf_16)
-                                         clknet_4_13__leaf_CLK (net)
-                  0.18    0.00    0.71 ^ clkbuf_leaf_70_CLK/A (sky130_fd_sc_hd__clkbuf_16)
-    12    0.04    0.06    0.18    0.89 ^ clkbuf_leaf_70_CLK/X (sky130_fd_sc_hd__clkbuf_16)
-                                         clknet_leaf_70_CLK (net)
-                  0.06    0.00    0.89 ^ core.CPU_src2_value_a3[15]$_DFF_P_/CLK (sky130_fd_sc_hd__dfxtp_2)
-                          0.88    1.78   clock uncertainty
-                          0.00    1.78   clock reconvergence pessimism
-                         -0.03    1.74   library hold time
-                                  1.74   data required time
------------------------------------------------------------------------------
-                                  1.74   data required time
-                                 -1.74   data arrival time
------------------------------------------------------------------------------
-                                  0.00   slack (MET)
-
-
-
-==========================================================================
-cts final report_checks -path_delay max
---------------------------------------------------------------------------
-Startpoint: core.CPU_valid_taken_br_a5$_DFF_P_
-            (rising edge-triggered flip-flop clocked by clk)
-Endpoint: core.CPU_Xreg_value_a4[7][13]$_SDFFE_PP0P_
-          (rising edge-triggered flip-flop clocked by clk)
-Path Group: clk
-Path Type: max
-
-Fanout     Cap    Slew   Delay    Time   Description
------------------------------------------------------------------------------
-                          0.00    0.00   clock clk (rise edge)
-                          0.00    0.00   clock source latency
-     1    0.10    0.00    0.00    0.00 ^ pll/CLK (avsdpll)
-                                         CLK (net)
-                  0.00    0.00    0.00 ^ clkbuf_0_CLK/A (sky130_fd_sc_hd__clkbuf_16)
-     8    0.23    0.24    0.26    0.26 ^ clkbuf_0_CLK/X (sky130_fd_sc_hd__clkbuf_16)
-                                         clknet_0_CLK (net)
-                  0.24    0.00    0.26 ^ clkbuf_3_4_0_CLK/A (sky130_fd_sc_hd__clkbuf_16)
-     2    0.04    0.07    0.21    0.47 ^ clkbuf_3_4_0_CLK/X (sky130_fd_sc_hd__clkbuf_16)
-                                         clknet_3_4_0_CLK (net)
-                  0.07    0.00    0.47 ^ clkbuf_4_8__f_CLK/A (sky130_fd_sc_hd__clkbuf_16)
-    11    0.15    0.16    0.23    0.70 ^ clkbuf_4_8__f_CLK/X (sky130_fd_sc_hd__clkbuf_16)
-                                         clknet_4_8__leaf_CLK (net)
-                  0.16    0.00    0.70 ^ clkbuf_leaf_149_CLK/A (sky130_fd_sc_hd__clkbuf_16)
-    15    0.04    0.06    0.18    0.88 ^ clkbuf_leaf_149_CLK/X (sky130_fd_sc_hd__clkbuf_16)
-                                         clknet_leaf_149_CLK (net)
-                  0.06    0.00    0.88 ^ core.CPU_valid_taken_br_a5$_DFF_P_/CLK (sky130_fd_sc_hd__dfxtp_1)
-     1    0.00    0.03    0.30    1.18 v core.CPU_valid_taken_br_a5$_DFF_P_/Q (sky130_fd_sc_hd__dfxtp_1)
-                                         core.CPU_valid_taken_br_a5 (net)
-                  0.03    0.00    1.18 v _07913_/A (sky130_fd_sc_hd__or4_4)
-    19    0.22    0.35    0.83    2.01 v _07913_/X (sky130_fd_sc_hd__or4_4)
-                                         _02930_ (net)
-                  0.35    0.01    2.02 v _07915_/A (sky130_fd_sc_hd__clkinv_16)
-    43    0.45    0.31    0.36    2.38 ^ _07915_/Y (sky130_fd_sc_hd__clkinv_16)
-                                         _02932_ (net)
-                  0.31    0.02    2.39 ^ _09981_/C (sky130_fd_sc_hd__nor3_2)
-     2    0.02    0.10    0.14    2.53 v _09981_/Y (sky130_fd_sc_hd__nor3_2)
-                                         _04371_ (net)
-                  0.10    0.00    2.53 v _09982_/B1 (sky130_fd_sc_hd__a21oi_4)
-     6    0.10    0.70    0.57    3.10 ^ _09982_/Y (sky130_fd_sc_hd__a21oi_4)
-                                         _04372_ (net)
-                  0.70    0.00    3.10 ^ _09988_/A2 (sky130_fd_sc_hd__o21ai_4)
-    16    0.12    0.33    0.38    3.47 v _09988_/Y (sky130_fd_sc_hd__o21ai_4)
-                                         _04378_ (net)
-                  0.33    0.00    3.48 v _13552_/A (sky130_fd_sc_hd__nor3_4)
-    23    0.14    1.37    1.19    4.67 ^ _13552_/Y (sky130_fd_sc_hd__nor3_4)
-                                         _07042_ (net)
-                  1.37    0.00    4.67 ^ _13572_/B (sky130_fd_sc_hd__nand2_2)
-     5    0.03    0.29    0.30    4.98 v _13572_/Y (sky130_fd_sc_hd__nand2_2)
-                                         _07058_ (net)
-                  0.29    0.00    4.98 v _13574_/B1 (sky130_fd_sc_hd__o221ai_1)
-     1    0.00    0.20    0.24    5.22 ^ _13574_/Y (sky130_fd_sc_hd__o221ai_1)
-                                         _01444_ (net)
-                  0.20    0.00    5.22 ^ hold2174/A (sky130_fd_sc_hd__dlygate4sd3_1)
-     1    0.00    0.05    0.57    5.79 ^ hold2174/X (sky130_fd_sc_hd__dlygate4sd3_1)
-                                         net2283 (net)
-                  0.05    0.00    5.79 ^ core.CPU_Xreg_value_a4[7][13]$_SDFFE_PP0P_/D (sky130_fd_sc_hd__dfxtp_1)
-                                  5.79   data arrival time
-
-                         11.05   11.05   clock clk (rise edge)
-                          0.00   11.05   clock source latency
-     1    0.10    0.00    0.00   11.05 ^ pll/CLK (avsdpll)
-                                         CLK (net)
-                  0.00    0.00   11.05 ^ clkbuf_0_CLK/A (sky130_fd_sc_hd__clkbuf_16)
-     8    0.23    0.24    0.26   11.31 ^ clkbuf_0_CLK/X (sky130_fd_sc_hd__clkbuf_16)
-                                         clknet_0_CLK (net)
-                  0.24    0.00   11.31 ^ clkbuf_3_6_0_CLK/A (sky130_fd_sc_hd__clkbuf_16)
-     2    0.04    0.06    0.21   11.52 ^ clkbuf_3_6_0_CLK/X (sky130_fd_sc_hd__clkbuf_16)
-                                         clknet_3_6_0_CLK (net)
-                  0.06    0.00   11.52 ^ clkbuf_4_13__f_CLK/A (sky130_fd_sc_hd__clkbuf_16)
-    12    0.16    0.18    0.24   11.76 ^ clkbuf_4_13__f_CLK/X (sky130_fd_sc_hd__clkbuf_16)
-                                         clknet_4_13__leaf_CLK (net)
-                  0.18    0.00   11.76 ^ clkbuf_leaf_90_CLK/A (sky130_fd_sc_hd__clkbuf_16)
-    11    0.04    0.06    0.19   11.94 ^ clkbuf_leaf_90_CLK/X (sky130_fd_sc_hd__clkbuf_16)
-                                         clknet_leaf_90_CLK (net)
-                  0.06    0.00   11.94 ^ core.CPU_Xreg_value_a4[7][13]$_SDFFE_PP0P_/CLK (sky130_fd_sc_hd__dfxtp_1)
-                         -0.55   11.39   clock uncertainty
-                          0.00   11.39   clock reconvergence pessimism
-                         -0.05   11.34   library setup time
-                                 11.34   data required time
------------------------------------------------------------------------------
-                                 11.34   data required time
-                                 -5.79   data arrival time
------------------------------------------------------------------------------
-                                  5.55   slack (MET)
-
-
-
-==========================================================================
-cts final report_checks -unconstrained
---------------------------------------------------------------------------
-Startpoint: core.CPU_valid_taken_br_a5$_DFF_P_
-            (rising edge-triggered flip-flop clocked by clk)
-Endpoint: core.CPU_Xreg_value_a4[7][13]$_SDFFE_PP0P_
-          (rising edge-triggered flip-flop clocked by clk)
-Path Group: clk
-Path Type: max
-
-Fanout     Cap    Slew   Delay    Time   Description
------------------------------------------------------------------------------
-                          0.00    0.00   clock clk (rise edge)
-                          0.00    0.00   clock source latency
-     1    0.10    0.00    0.00    0.00 ^ pll/CLK (avsdpll)
-                                         CLK (net)
-                  0.00    0.00    0.00 ^ clkbuf_0_CLK/A (sky130_fd_sc_hd__clkbuf_16)
-     8    0.23    0.24    0.26    0.26 ^ clkbuf_0_CLK/X (sky130_fd_sc_hd__clkbuf_16)
-                                         clknet_0_CLK (net)
-                  0.24    0.00    0.26 ^ clkbuf_3_4_0_CLK/A (sky130_fd_sc_hd__clkbuf_16)
-     2    0.04    0.07    0.21    0.47 ^ clkbuf_3_4_0_CLK/X (sky130_fd_sc_hd__clkbuf_16)
-                                         clknet_3_4_0_CLK (net)
-                  0.07    0.00    0.47 ^ clkbuf_4_8__f_CLK/A (sky130_fd_sc_hd__clkbuf_16)
-    11    0.15    0.16    0.23    0.70 ^ clkbuf_4_8__f_CLK/X (sky130_fd_sc_hd__clkbuf_16)
-                                         clknet_4_8__leaf_CLK (net)
-                  0.16    0.00    0.70 ^ clkbuf_leaf_149_CLK/A (sky130_fd_sc_hd__clkbuf_16)
-    15    0.04    0.06    0.18    0.88 ^ clkbuf_leaf_149_CLK/X (sky130_fd_sc_hd__clkbuf_16)
-                                         clknet_leaf_149_CLK (net)
-                  0.06    0.00    0.88 ^ core.CPU_valid_taken_br_a5$_DFF_P_/CLK (sky130_fd_sc_hd__dfxtp_1)
-     1    0.00    0.03    0.30    1.18 v core.CPU_valid_taken_br_a5$_DFF_P_/Q (sky130_fd_sc_hd__dfxtp_1)
-                                         core.CPU_valid_taken_br_a5 (net)
-                  0.03    0.00    1.18 v _07913_/A (sky130_fd_sc_hd__or4_4)
-    19    0.22    0.35    0.83    2.01 v _07913_/X (sky130_fd_sc_hd__or4_4)
-                                         _02930_ (net)
-                  0.35    0.01    2.02 v _07915_/A (sky130_fd_sc_hd__clkinv_16)
-    43    0.45    0.31    0.36    2.38 ^ _07915_/Y (sky130_fd_sc_hd__clkinv_16)
-                                         _02932_ (net)
-                  0.31    0.02    2.39 ^ _09981_/C (sky130_fd_sc_hd__nor3_2)
-     2    0.02    0.10    0.14    2.53 v _09981_/Y (sky130_fd_sc_hd__nor3_2)
-                                         _04371_ (net)
-                  0.10    0.00    2.53 v _09982_/B1 (sky130_fd_sc_hd__a21oi_4)
-     6    0.10    0.70    0.57    3.10 ^ _09982_/Y (sky130_fd_sc_hd__a21oi_4)
-                                         _04372_ (net)
-                  0.70    0.00    3.10 ^ _09988_/A2 (sky130_fd_sc_hd__o21ai_4)
-    16    0.12    0.33    0.38    3.47 v _09988_/Y (sky130_fd_sc_hd__o21ai_4)
-                                         _04378_ (net)
-                  0.33    0.00    3.48 v _13552_/A (sky130_fd_sc_hd__nor3_4)
-    23    0.14    1.37    1.19    4.67 ^ _13552_/Y (sky130_fd_sc_hd__nor3_4)
-                                         _07042_ (net)
-                  1.37    0.00    4.67 ^ _13572_/B (sky130_fd_sc_hd__nand2_2)
-     5    0.03    0.29    0.30    4.98 v _13572_/Y (sky130_fd_sc_hd__nand2_2)
-                                         _07058_ (net)
-                  0.29    0.00    4.98 v _13574_/B1 (sky130_fd_sc_hd__o221ai_1)
-     1    0.00    0.20    0.24    5.22 ^ _13574_/Y (sky130_fd_sc_hd__o221ai_1)
-                                         _01444_ (net)
-                  0.20    0.00    5.22 ^ hold2174/A (sky130_fd_sc_hd__dlygate4sd3_1)
-     1    0.00    0.05    0.57    5.79 ^ hold2174/X (sky130_fd_sc_hd__dlygate4sd3_1)
-                                         net2283 (net)
-                  0.05    0.00    5.79 ^ core.CPU_Xreg_value_a4[7][13]$_SDFFE_PP0P_/D (sky130_fd_sc_hd__dfxtp_1)
-                                  5.79   data arrival time
-
-                         11.05   11.05   clock clk (rise edge)
-                          0.00   11.05   clock source latency
-     1    0.10    0.00    0.00   11.05 ^ pll/CLK (avsdpll)
-                                         CLK (net)
-                  0.00    0.00   11.05 ^ clkbuf_0_CLK/A (sky130_fd_sc_hd__clkbuf_16)
-     8    0.23    0.24    0.26   11.31 ^ clkbuf_0_CLK/X (sky130_fd_sc_hd__clkbuf_16)
-                                         clknet_0_CLK (net)
-                  0.24    0.00   11.31 ^ clkbuf_3_6_0_CLK/A (sky130_fd_sc_hd__clkbuf_16)
-     2    0.04    0.06    0.21   11.52 ^ clkbuf_3_6_0_CLK/X (sky130_fd_sc_hd__clkbuf_16)
-                                         clknet_3_6_0_CLK (net)
-                  0.06    0.00   11.52 ^ clkbuf_4_13__f_CLK/A (sky130_fd_sc_hd__clkbuf_16)
-    12    0.16    0.18    0.24   11.76 ^ clkbuf_4_13__f_CLK/X (sky130_fd_sc_hd__clkbuf_16)
-                                         clknet_4_13__leaf_CLK (net)
-                  0.18    0.00   11.76 ^ clkbuf_leaf_90_CLK/A (sky130_fd_sc_hd__clkbuf_16)
-    11    0.04    0.06    0.19   11.94 ^ clkbuf_leaf_90_CLK/X (sky130_fd_sc_hd__clkbuf_16)
-                                         clknet_leaf_90_CLK (net)
-                  0.06    0.00   11.94 ^ core.CPU_Xreg_value_a4[7][13]$_SDFFE_PP0P_/CLK (sky130_fd_sc_hd__dfxtp_1)
-                         -0.55   11.39   clock uncertainty
-                          0.00   11.39   clock reconvergence pessimism
-                         -0.05   11.34   library setup time
-                                 11.34   data required time
------------------------------------------------------------------------------
-                                 11.34   data required time
-                                 -5.79   data arrival time
------------------------------------------------------------------------------
-                                  5.55   slack (MET)
-
-
-
-==========================================================================
-cts final report_check_types -max_slew -max_cap -max_fanout -violators
---------------------------------------------------------------------------
-max capacitance
-
-Pin                                    Limit     Cap   Slack
-------------------------------------------------------------
-_13743_/Y                               0.15    0.15   -0.00 (VIOLATED)
-_13455_/Y                               0.15    0.15   -0.00 (VIOLATED)
-
-
-==========================================================================
-cts final max_slew_check_slack
---------------------------------------------------------------------------
-0.02021305449306965
-
-==========================================================================
-cts final max_slew_check_limit
---------------------------------------------------------------------------
-1.4951449632644653
-
-==========================================================================
-cts final max_slew_check_slack_limit
---------------------------------------------------------------------------
-0.0135
-
-==========================================================================
-cts final max_fanout_check_slack
---------------------------------------------------------------------------
-1.0000000150474662e+30
-
-==========================================================================
-cts final max_fanout_check_limit
---------------------------------------------------------------------------
-1.0000000150474662e+30
-
-==========================================================================
-cts final max_capacitance_check_slack
---------------------------------------------------------------------------
--0.001024815021082759
-
-==========================================================================
-cts final max_capacitance_check_limit
---------------------------------------------------------------------------
-0.1538189947605133
-
-==========================================================================
-cts final max_capacitance_check_slack_limit
---------------------------------------------------------------------------
--0.0067
-
-==========================================================================
-cts final max_slew_violation_count
---------------------------------------------------------------------------
-max slew violation count 0
-
-==========================================================================
-cts final max_fanout_violation_count
---------------------------------------------------------------------------
-max fanout violation count 0
-
-==========================================================================
-cts final max_cap_violation_count
---------------------------------------------------------------------------
-max cap violation count 2
-
-==========================================================================
-cts final setup_violation_count
---------------------------------------------------------------------------
-setup violation count 0
-
-==========================================================================
-cts final hold_violation_count
---------------------------------------------------------------------------
-hold violation count 0
-
-==========================================================================
-cts final report_checks -path_delay max reg to reg
---------------------------------------------------------------------------
-Startpoint: core.CPU_valid_taken_br_a5$_DFF_P_
-            (rising edge-triggered flip-flop clocked by clk)
-Endpoint: core.CPU_Xreg_value_a4[7][13]$_SDFFE_PP0P_
-          (rising edge-triggered flip-flop clocked by clk)
-Path Group: clk
-Path Type: max
-
-  Delay    Time   Description
----------------------------------------------------------
-   0.00    0.00   clock clk (rise edge)
-   0.00    0.00   clock source latency
-   0.00    0.00 ^ pll/CLK (avsdpll)
-   0.26    0.26 ^ clkbuf_0_CLK/X (sky130_fd_sc_hd__clkbuf_16)
-   0.21    0.47 ^ clkbuf_3_4_0_CLK/X (sky130_fd_sc_hd__clkbuf_16)
-   0.23    0.70 ^ clkbuf_4_8__f_CLK/X (sky130_fd_sc_hd__clkbuf_16)
-   0.18    0.88 ^ clkbuf_leaf_149_CLK/X (sky130_fd_sc_hd__clkbuf_16)
-   0.00    0.88 ^ core.CPU_valid_taken_br_a5$_DFF_P_/CLK (sky130_fd_sc_hd__dfxtp_1)
-   0.30    1.18 v core.CPU_valid_taken_br_a5$_DFF_P_/Q (sky130_fd_sc_hd__dfxtp_1)
-   0.83    2.01 v _07913_/X (sky130_fd_sc_hd__or4_4)
-   0.36    2.38 ^ _07915_/Y (sky130_fd_sc_hd__clkinv_16)
-   0.15    2.53 v _09981_/Y (sky130_fd_sc_hd__nor3_2)
-   0.57    3.10 ^ _09982_/Y (sky130_fd_sc_hd__a21oi_4)
-   0.38    3.47 v _09988_/Y (sky130_fd_sc_hd__o21ai_4)
-   1.20    4.67 ^ _13552_/Y (sky130_fd_sc_hd__nor3_4)
-   0.31    4.98 v _13572_/Y (sky130_fd_sc_hd__nand2_2)
-   0.24    5.22 ^ _13574_/Y (sky130_fd_sc_hd__o221ai_1)
-   0.57    5.79 ^ hold2174/X (sky130_fd_sc_hd__dlygate4sd3_1)
-   0.00    5.79 ^ core.CPU_Xreg_value_a4[7][13]$_SDFFE_PP0P_/D (sky130_fd_sc_hd__dfxtp_1)
-           5.79   data arrival time
-
-  11.05   11.05   clock clk (rise edge)
-   0.00   11.05   clock source latency
-   0.00   11.05 ^ pll/CLK (avsdpll)
-   0.26   11.31 ^ clkbuf_0_CLK/X (sky130_fd_sc_hd__clkbuf_16)
-   0.21   11.52 ^ clkbuf_3_6_0_CLK/X (sky130_fd_sc_hd__clkbuf_16)
-   0.24   11.76 ^ clkbuf_4_13__f_CLK/X (sky130_fd_sc_hd__clkbuf_16)
-   0.19   11.94 ^ clkbuf_leaf_90_CLK/X (sky130_fd_sc_hd__clkbuf_16)
-   0.00   11.94 ^ core.CPU_Xreg_value_a4[7][13]$_SDFFE_PP0P_/CLK (sky130_fd_sc_hd__dfxtp_1)
-  -0.55   11.39   clock uncertainty
-   0.00   11.39   clock reconvergence pessimism
-  -0.05   11.34   library setup time
-          11.34   data required time
----------------------------------------------------------
-          11.34   data required time
-          -5.79   data arrival time
----------------------------------------------------------
-           5.55   slack (MET)
-
-
-
-==========================================================================
-cts final report_checks -path_delay min reg to reg
---------------------------------------------------------------------------
-Startpoint: core.CPU_Xreg_value_a4[25][15]$_SDFFE_PP0P_
-            (rising edge-triggered flip-flop clocked by clk)
-Endpoint: core.CPU_src2_value_a3[15]$_DFF_P_
-          (rising edge-triggered flip-flop clocked by clk)
-Path Group: clk
-Path Type: min
-
-  Delay    Time   Description
----------------------------------------------------------
-   0.00    0.00   clock clk (rise edge)
-   0.00    0.00   clock source latency
-   0.00    0.00 ^ pll/CLK (avsdpll)
-   0.26    0.26 ^ clkbuf_0_CLK/X (sky130_fd_sc_hd__clkbuf_16)
-   0.21    0.47 ^ clkbuf_3_7_0_CLK/X (sky130_fd_sc_hd__clkbuf_16)
-   0.24    0.71 ^ clkbuf_4_14__f_CLK/X (sky130_fd_sc_hd__clkbuf_16)
-   0.19    0.90 ^ clkbuf_leaf_108_CLK/X (sky130_fd_sc_hd__clkbuf_16)
-   0.00    0.90 ^ core.CPU_Xreg_value_a4[25][15]$_SDFFE_PP0P_/CLK (sky130_fd_sc_hd__dfxtp_1)
-   0.32    1.22 ^ core.CPU_Xreg_value_a4[25][15]$_SDFFE_PP0P_/Q (sky130_fd_sc_hd__dfxtp_1)
-   0.06    1.28 v _14708_/Y (sky130_fd_sc_hd__a21oi_1)
-   0.12    1.40 ^ _14712_/Y (sky130_fd_sc_hd__nand4_1)
-   0.18    1.58 v _14729_/Y (sky130_fd_sc_hd__o32ai_4)
-   0.16    1.74 ^ _14731_/Y (sky130_fd_sc_hd__o21ai_0)
-   0.00    1.74 ^ core.CPU_src2_value_a3[15]$_DFF_P_/D (sky130_fd_sc_hd__dfxtp_2)
-           1.74   data arrival time
-
-   0.00    0.00   clock clk (rise edge)
-   0.00    0.00   clock source latency
-   0.00    0.00 ^ pll/CLK (avsdpll)
-   0.26    0.26 ^ clkbuf_0_CLK/X (sky130_fd_sc_hd__clkbuf_16)
-   0.21    0.47 ^ clkbuf_3_6_0_CLK/X (sky130_fd_sc_hd__clkbuf_16)
-   0.24    0.71 ^ clkbuf_4_13__f_CLK/X (sky130_fd_sc_hd__clkbuf_16)
-   0.19    0.89 ^ clkbuf_leaf_70_CLK/X (sky130_fd_sc_hd__clkbuf_16)
-   0.00    0.89 ^ core.CPU_src2_value_a3[15]$_DFF_P_/CLK (sky130_fd_sc_hd__dfxtp_2)
-   0.88    1.78   clock uncertainty
-   0.00    1.78   clock reconvergence pessimism
-  -0.03    1.74   library hold time
-           1.74   data required time
----------------------------------------------------------
-           1.74   data required time
-          -1.74   data arrival time
----------------------------------------------------------
-           0.00   slack (MET)
-
-
-
-==========================================================================
-cts final critical path target clock latency max path
---------------------------------------------------------------------------
-0
-
-==========================================================================
-cts final critical path target clock latency min path
---------------------------------------------------------------------------
-0
-
-==========================================================================
-cts final critical path source clock latency min path
---------------------------------------------------------------------------
-0
-
-==========================================================================
-cts final critical path delay
---------------------------------------------------------------------------
-5.7921
-
-==========================================================================
-cts final critical path slack
---------------------------------------------------------------------------
-5.5454
-
-==========================================================================
-cts final slack div critical path delay
---------------------------------------------------------------------------
-95.740750
-
-==========================================================================
-cts final report_power
---------------------------------------------------------------------------
-Group                  Internal  Switching    Leakage      Total
-                          Power      Power      Power      Power (Watts)
-----------------------------------------------------------------
-Sequential             6.95e-03   9.72e-04   1.45e-08   7.92e-03  37.7%
-Combinational          2.12e-03   4.52e-03   3.05e-08   6.64e-03  31.6%
-Clock                  3.66e-03   2.76e-03   2.96e-09   6.42e-03  30.6%
-Macro                  0.00e+00   0.00e+00   0.00e+00   0.00e+00   0.0%
-Pad                    0.00e+00   0.00e+00   0.00e+00   0.00e+00   0.0%
-----------------------------------------------------------------
-Total                  1.27e-02   8.25e-03   4.80e-08   2.10e-02 100.0%
-                          60.7%      39.3%       0.0%
-```
-
-Route:
-
-```
-make DESIGN_CONFIG=./designs/sky130hd/vsdbabysoc/config.mk route
-```
-
-![image]()
-
-![image]()
-
-
-# Week8
-
-# /mnt/data/silicon_repo/silicon-diary-main/Week8/Readme.md
-
+# [week8](https://github.com/Jaynandan-Kushwaha/silicon-diary/tree/main/Week8)
 # VSDBabySoC – Static Timing Analysis (Pre-Route & Post-Route)
 
 ## 📚 Contents
@@ -8000,8 +6630,4 @@ Graph showing TNS differences across all corners.
 
 Due to exam pepration i created file late i completd all labs on time i am just creating github juat one day late i am sorry for creating late github repo
 
-
-
 ---
-
-# /mnt/data/silicon_repo/silicon-diary-main/Week8/Images/Readme.md
